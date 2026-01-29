@@ -8,12 +8,9 @@ int main() {
 
     scanf("%d", &n);
 
-    /* Count number of digits */
     for (temp = n; temp != 0; temp = temp / 10) {
         digits++;
     }
-
-    /* Calculate Armstrong sum */
     for (temp = n; temp != 0; temp = temp / 10) {
         d = temp % 10;
         power = 1;
@@ -33,3 +30,4 @@ int main() {
 
     return 0;
 }
+
